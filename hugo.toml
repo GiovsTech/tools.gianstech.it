@@ -1,0 +1,53 @@
+baseURL = "https://tools.gianstech.it"
+theme = "hugo-whisper-theme"
+languageCode = "en-us"
+title = "GiovsTechs' Tools"
+
+pygmentsCodeFences = true
+pygmentsCodefencesGuessSyntax = true
+pygmentsUseClasses = true
+
+[module]
+  [module.hugoVersion]
+    extended = true
+    min = "0.55.0"
+
+summaryLength = 30
+
+[[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+
+[[menu.main]]
+    name = "LinuxEFIMounter Docs"
+    url = "/docs/"
+    weight = 2
+
+[params]
+  google_analytics_id=""
+  homepage_button_link = '/docs/'
+  homepage_button_text = 'Read The Docs'
+  homepage_intro = 'Mount your Hackintosh EFI partition from Linux.'
+  homepage_image = 'https://user-images.githubusercontent.com/88248950/255330741-3a13aae9-ded7-4072-bbbf-5ca0f7c4c5bb.jpeg'
+
+  ## You can enable to add anchor links to header elements
+enable_anchor_link = true
+
+  [params.homepage_meta_tags]
+    meta_description = "This website contains documentation of my programs and scripts, such as LinuxEFIMounter,which  is a simple and standalone Bash program that makes it easy to mount the EFI partition on your Hackintosh drive directly from Linux"
+    meta_og_title = "GiovsTechs' Tools | LinuxEFIMounter"
+    meta_og_type = "website"
+    meta_og_url = "https://tools.gianstech.it"
+    meta_og_image = "https://gianstech.it/img/logo_hu504d07b2dd5dcd8f48037821f5974907_18553_300x0_resize_q75_box.jpg"
+    meta_og_description = "This website contains documentation of my programs and scripts, such as LinuxEFIMounter, which  is a simple and standalone Bash program that makes it easy to mount the EFI partition on your Hackintosh drive directly from Linux"
+    meta_twitter_card = "summary"
+    meta_twitter_site = "@johnds963"
+    meta_twitter_creator = "@johnds963"
+
+  [params.logo]
+      mobile = "logo.png"
+      standard  = "logo.png"
+
+  [params.footer]
+    copyright_text = '<a href="https://gthz.it/main">Coded by &#169; 2023 GiovsTechs</a>'
