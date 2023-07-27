@@ -4,7 +4,7 @@ date: 2019-02-11T19:27:37+10:00
 weight: 2
 ---
 
-Before you run LinuxEFIMounter, you have to make sure it has the rights needed to execute it:
+Before you run LinuxEFIMounter, you have to make sure it has the rights needed to be executed:
 
 ```bash
 sudo chmod a+x LinuxEFIMounter.sh
