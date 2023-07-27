@@ -1,0 +1,14 @@
+name = "Whisper"
+license = "MIT"
+licenselink = "https://github.com/zerostatic/tools.gianstech.it/blob/master/LICENSE"
+description = "LinuxEFIMounter tool."
+
+homepage = "https://github.com/GiovsTech/tools.gianstech.it"
+demosite = "https://tools.gianstech.it"
+
+tags = ["docs","LinuxEFIMounter"]
+features = ["efi", "bash", "scripts"]
+
+[author]
+  name = "GiansTech"
+  homepage = "https://gianstech.it"
